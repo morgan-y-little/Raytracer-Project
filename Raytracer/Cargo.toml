@@ -1,0 +1,13 @@
+[package]
+name = "raytracer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = { version = "1.18", features = [ "derive" ] }
+glam = "0.29.0"
+hexasphere = "15.0.0"
+image = "0.25.4"
+pollster = "0.3.0"
+wgpu = "22.1.0"
+winit = "0.30.5"
